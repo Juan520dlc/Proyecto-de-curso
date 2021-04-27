@@ -13,6 +13,14 @@ body {
 header {
   width: 100%;
 }
+
+.titulo1 {
+  text-align: center;
+}
+p .titulo{
+  text-align: center;
+}
+
 /* Aquí empieza el estilo del menu responsive de la página */
 /* Color del menú y alineación al centro*/
 header nav {
