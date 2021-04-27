@@ -6,13 +6,29 @@
 
 /*Estilo del "body" */
 body {
-  background: #FFFFFA;
+  background-color: #fff;
 }
 
 /*Estilo del encabezado para abarcar el 100%*/
 header {
   width: 100%;
 }
+
+/* Bienvenida al usuario*/
+.bienvenida {
+  background-color: #D88100;
+  margin-left: 250px;
+  margin-right: 250px;
+  border-radius: 50px;
+}
+
+.bienvenida p {
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+}
+
 /* Aquí empieza el estilo del menu responsive de la página */
 /* Color del menú y alineación al centro*/
 header nav {
@@ -20,6 +36,32 @@ header nav {
   max-width:1000px;
   margin:20px auto;
   background: #7f4897;
+}
+
+/* Imagen 1 */
+.img1 img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Imagen 2 */
+.img2 img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Imagen 3 */
+.img3 img {
+  margin-left: 350px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Imagen 4 */
+.img4 img {
+  margin-left: 750px;
+  margin-top: -1000px;
+  margin-bottom: 20px;
 }
 
 /* Se elimina el icono de "Menú" */

@@ -13,6 +13,11 @@ body {
 header {
   width: 100%;
 }
+
+h2 {
+  margin-left: 50px;
+}
+
 /* Aquí empieza el estilo del menu responsive de la página */
 /* Color del menú y alineación al centro*/
 header nav {
